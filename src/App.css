@@ -1,0 +1,32 @@
+body {
+	color:white;
+	background-color: black;
+
+}
+.site-container {
+	width: 90%;
+	max-width: 1280px;
+	margin-left: auto;
+    margin-right: auto;
+}
+input:active, input:focus {
+	outline: none;
+}
+button:active, button:focus {
+    outline:none;
+}
+
+.scrollup {
+width:40px;
+height:40px;
+opacity:0.6;
+position:fixed;
+bottom:50px;
+right:2%;
+display:none;
+text-indent:-9999px;
+background: url('up-arrow-circular-button.png') no-repeat;
+}
+
+
+ 

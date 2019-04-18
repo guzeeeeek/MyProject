@@ -1,0 +1,147 @@
+.portfolio {
+	margin-top: 20px;
+	padding-top: 50px;
+	background-color: rgba(255,255,255, 0.1);
+}
+.portfolio h4,
+.contacts h4 {
+	font-weight: bold;
+	font-size:34px;
+	text-align: center;
+	padding-bottom: 40px;
+	letter-spacing: 2px;
+}
+.portfolio p,
+.portfolio .description_portfolio {
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.contacts p {
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 1px;
+
+}
+.portfolio .todo,
+.portfolio .mass,
+.portfolio .car {
+	margin-top: 40px;
+	
+	width: 250px;
+}
+
+.portfolio .todo img,
+.portfolio .mass img,
+.portfolio .car img{
+	margin:0 auto;
+	display: block;
+	cursor: pointer;
+}
+.portfolio .to-do-list,
+.portfolio .body-mass-index,
+.portfolio .car_input {
+	text-transform: uppercase;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	
+}
+.projects {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+}
+.showToDo,
+.showBodyMass {
+	padding-bottom: 10px;
+	
+    display: block;
+    
+    margin-top: 20px;
+}
+.todo_class,
+.body-mass {
+	width: 310px;
+	background-color: orange;
+	padding: 5px;
+	box-sizing: border-box;
+	box-shadow: 0px 5px 8px 3px red;
+	margin: 0 auto;
+}
+.todo_class input {
+	margin-left: 8%;
+}
+.todo_class [placeholder] {
+	padding: 3px;
+	width: 80%;
+	text-align: center;
+
+}
+.todo_class p {
+	font-size: 14px;
+	padding: 5px 2px;
+}
+.todo_class .list {
+	padding-top:5px;
+}
+.todo_class span {
+	text-align: center;
+	display:block;
+	margin:5px 0;
+	text-transform: uppercase;
+}
+.item {
+	margin-bottom: 5px;
+}
+.item button {
+	margin-left: 5px;
+	padding:1px 3px;
+	cursor: pointer;
+}
+.item input[type="checkbox"] {
+	top: 3px;
+	width: 17px;
+	height:17px;
+	position: relative;
+}
+.body-mass #calc {
+	margin-bottom: 5px;
+	margin-top: 3px;
+}
+.body-mass .main_bodymass {
+    margin-left:30px;
+}
+.body-mass .main_bodymass input {
+	margin-left: 5px;
+}
+.body-mass .main_bodymass p{
+	text-align: left;
+	font-size: 14px;
+	
+}
+
+.body-mass .main_bodymass .check_height,
+.body-mass .main_bodymass .check_weight {
+	color: red;
+	font-size:12px;
+	
+}
+.body-mass input {
+	padding: 5px;
+}
+.reset-btn {
+	margin-top: 10px;
+	padding: 3px 5px;
+    position:relative;
+    left:25%;
+    width:40%;
+}
+.replay-btn {
+	display: block;
+}
+
+

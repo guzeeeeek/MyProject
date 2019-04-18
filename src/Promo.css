@@ -1,0 +1,41 @@
+svg {
+	stroke:red;
+}
+.promo {
+	background-image: url('/images/black.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	height:100vh;
+	box-shadow:inset 50px 0px 277px 100px #282a2d;
+	text-align: center;
+}
+.promo p {
+	padding-top:18%;
+    font-size:22px;
+}
+.promo h1 {
+	padding-top:1%;
+}
+
+.promo ul  li a img {
+	position: relative;
+}
+.promo ul {
+	padding-top:2%;
+}
+.promo ul li {
+	display: inline-block;
+}
+.promo ul a {
+    
+}
+.promo ul img {
+	margin-right: 30px;
+	padding: 5px;
+	
+}
+.promo ul img:hover {
+    background-color:white;
+	border-radius: 10px;
+    
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,900&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href='./src/media.css' />
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+$(document).ready(function(){
+ 
+$(window).scroll(function(){
+if ($(this).scrollTop() > 100) {
+$('.scrollup').fadeIn();
+} else {
+$('.scrollup').fadeOut();
+}
+});
+ 
+$('.scrollup').click(function(){
+$("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+ 
+});
+</script>
+
+
+</script>
+    <title>MyProject</title>
+  </head>
+  <style>
+
+</style>
+  <body>
+   <!--<script type="text/javascript"> $(document).ready(function(){ alert(jQuery.fn.jquery); }); </script> */ -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <section class="wow slideInLeft"></section>
+    <div id="root"></div>
+    <a href="#" class="scrollup"></a>
+    <script src="/ToDo.js" type="text/babel"></script>
+    <script src="/BodyMass.js" type="text/babel"></script>
+    <script src="./script.js" ></script>
+    <script src="/wow.min.js"></script>
+              
+  </body>
+</html>

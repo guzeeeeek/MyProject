@@ -1,0 +1,320 @@
+@media screen and (max-width: 1300px) {
+    .skill_area .Css,
+ .skill_area .React {
+	margin-left: 50px;
+}
+ .main .left {
+ 	margin :0 auto;
+ 	display: block;
+ 	width: 60%;
+ }
+ .main .left img {
+ 	width:100%;
+ }
+
+ .main .right {
+ 	position: static;
+ 	text-align: center;
+ 	display: block;
+ 	margin-top:20px;
+ }
+ .skill_area .progress {
+ 	width:400px;
+ }
+   }
+
+@media screen and (max-width: 1024px) {
+	form input[name="name"],
+    form input[name="email"] {
+        width: 30.6%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	.skill_area .progress {
+		width:300px;
+	}
+	.header ul li:first-child {
+
+	}
+	form input[name="name"],
+    form input[name="email"] {
+	display: block;
+	margin: 0 auto;
+	width:65.5%;
+    }
+    form input[name="name"] {
+    	margin-bottom: 20px;
+    }
+    form input[name="subject"] {
+    	margin-top:0px;
+    }
+    .header ul li:nth-child(n+2) {
+    	display: none;
+    }
+    .header ul li:first-child {
+    	margin-top: 8px;
+    }
+    .section {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.menu-block {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-nav a {
+  text-decoration: none;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 100;
+  display: inline-block;
+  margin-right: 20px;
+  transition: 1s;
+}
+.header ul li:first-child {
+	margin-right: 10%;
+}
+.menu-nav {
+ display: block;
+  transition: 0.2s;
+  transform: scaleX(0) translateX(0%);
+  transform-origin: right center;
+  opacity: 0;
+  visibility: hidden;
+  height: 40px;
+  line-height: 40px;
+  background-color: #fff;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: -25px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.menu-nav_active {
+  transform: scaleX(1) translateX(0%);
+  opacity: 1;
+  visibility: visible;
+}
+.menu-btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+
+
+}
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after {
+  position: absolute;
+  top: 50%; margin-top: -1px;
+  left: 50%; margin-left: -10px;
+  width: 20px;
+  height: 2px;
+  background-color: #222;
+}
+.menu-btn span::before,
+.menu-btn span::after {
+  content: '';
+  display: block;
+  transition: 0.2s;
+}
+.menu-btn span::before {
+  transform: translateY(-5px);
+}
+.menu-btn span::after {
+  transform: translateY(5px);
+}
+
+.menu-btn_active span:before {
+  transform: rotate(-35deg);
+  width: 10px;
+  transform-origin: left bottom;
+}
+.menu-btn_active span:after {
+  transform: rotate(35deg);
+  width: 10px;
+  transform-origin: left top;
+}
+
+.menu-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-nav {
+  background-color: #fff;
+  height: 40px;
+  
+}
+.menu-nav__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+.menu-nav__link {
+  transition: 0.5s;
+  transform-origin: right center;
+  transform: translateX(50%);
+  opacity: 0;
+}
+.menu-nav__link_active {
+  transform: translateX(0%);
+  opacity: 1;
+
+}
+}
+@media screen and (max-width: 425px)  {
+	.header ul li:first-child {
+		font-size:14px;
+		letter-spacing: 1px;
+		margin-right:0px;
+		margin-left: -30px;
+
+	}
+    
+	.menu-nav a {
+  margin-right: 5px;
+  font-size:14px;
+  }
+  .menu-nav {
+  height: 30px;
+  line-height: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  
+  
+}
+
+.menu-btn {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  left:10px;
+
+}
+.skill_area .Css,
+ .skill_area .React {
+	margin-left: 0px;
+}
+
+.skill_area .Html,
+ .skill_area .Css,
+ .skill_area .JavaScript,
+ .skill_area .React {
+	
+	margin-left:15px;
+}
+.main .left {
+ 	
+ 	width: 100%;
+ }
+ .main .right {
+ 	margin-left: 0px;
+ }
+ .main .right .name {
+ 	font-size:18px;
+ }
+ .main .right .web {
+ 	font-size:16px;
+ }
+ .projects .todo img,
+ .projects .mass img,
+ .projects .car img {
+ 	width: 80px;
+ 	height: 100px;
+ }
+ .projects .todo p,
+ .projects .mass p,
+ .projects .car p {
+ 	font-size:12px;
+ }
+ .contacts .CopyRight {
+ 	font-size:14px;
+ }
+ .contacts p {
+ 	font-size:15px;
+ }
+}
+ @media screen and (max-width: 375px) {
+ 	.header ul li:first-child {
+		font-size:12px;
+		letter-spacing:0px;
+	    margin:0px;
+		padding-top:7px;
+        
+	}
+	.header ul li a{
+		padding:0px;
+	}
+ 	.main .right ul li {
+ 		
+ 		font-size:14px;
+ 	}
+ 	.menu-block  {
+ 		width:230px;
+ 	}
+ 	
+    .menu-nav a {
+    	font-size:13px;
+    }
+    .main .left {
+    	width:100%;
+    }
+    .contacts .CopyRight  {
+    	letter-spacing: 0px;
+    }
+  }
+@media screen and (max-width: 320px) {
+    .header ul li:first-child {
+		font-size:12px;
+		letter-spacing:0px;
+	    margin:0px;
+		padding-top:7px;
+
+	}
+	.header ul li a{
+		padding:0px;
+	}
+	.menu-btn {
+       
+      
+    }
+    .menu-block {
+    	left:-10px;
+    }
+    .menu-nav a {
+    	font-size:12px;
+    }
+    .menu-nav_active {
+         
+    }
+	.contacts .CopyRight {
+		font-size:12px;
+	}
+    .main .right .question {
+    	margin-right: 0px;
+    }
+    .skill_area .Html,
+ .skill_area .Css,
+ .skill_area .JavaScript,
+ .skill_area .React {
+	
+	margin-left:0px;
+}
+.skill_area .progress {
+		width:280px;
+	}
+  }
+
+

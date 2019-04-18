@@ -1,0 +1,65 @@
+.skill_area {
+	margin-top: 80px;
+
+}
+ .skill_area .Html,
+ .skill_area .Css,
+ .skill_area .JavaScript,
+ .skill_area .React {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+ .skill_area .Css,
+ .skill_area .React {
+	margin-left: 50px;
+}
+ .skill_area .Html .one,
+ .skill_area .Css .one,
+ .skill_area .JavaScript .one,
+ .skill_area .React .one {
+	margin-right: 20px;
+}
+.skill_area .progress {
+	width: 560px;
+	height: 5px;
+	background-color: rgba(255,255,255, 0.1);
+	display: inline-block;
+	
+
+}
+ .skill_area .progress .progress-bar-html span,
+.skill_area .progress .progress-bar-css span,
+ .skill_area .progress .progress-bar-javascript span,
+ .skill_area .progress .progress-bar-react span {
+	background-color: white;
+	padding: 3px 8px;
+	color:black;
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	top:-8px;
+
+}
+ .skill_area .progress .progress-bar-html, 
+ .skill_area .progress .progress-bar-css,
+ .skill_area .progress .progress-bar-javascript,
+ .skill_area .progress .progress-bar-react {
+	position: relative;
+	right: 0;
+	height: 5px;
+	background-color: white;
+}
+ .skill_area .progress .progress-bar-html {
+   width: 80%;
+   
+   
+}
+.skill_area .progress .progress-bar-css {
+	width: 75%;
+}
+ .skill_area .progress .progress-bar-javascript {
+	width: 60%;
+}
+ .skill_area .progress .progress-bar-react {
+	width: 55%;
+}

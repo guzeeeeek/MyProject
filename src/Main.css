@@ -1,0 +1,51 @@
+.main {
+	margin-top: 30px;
+    
+}
+.main .left {
+	
+	display: inline-block;
+}
+.main .right {
+	display: inline-block;
+	position: relative;
+	bottom:250px;
+	margin-left:60px;
+}
+.main .right .name,
+.main .right .web {
+	margin-bottom: 15px;
+}
+
+.main .right .name {
+	font-size: 28px;
+}
+
+.main .right .web {
+	font-size: 20px;
+}
+.main .right .description {
+	margin-bottom: 35px;
+	letter-spacing: 2px;
+	font-size:14px;
+}
+.main .right .question {
+	display: inline-block;
+	margin-right: 25px;
+}
+.main .right .response {
+	display:inline-block;
+}
+.main .right .question li,
+.main .right .response li {
+	margin-bottom: 10px;
+}
+.main .right .number {
+	padding:15px 20px;
+	border-radius:25px;
+	background-color: white;
+	color:black;
+	font-size:16px;
+	margin-top: 30px;
+	cursor:pointer;
+}
